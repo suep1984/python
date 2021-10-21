@@ -21,7 +21,3 @@ def thesaurus_adv(*peoples):
         names_dict = {n_k: n_v for n_k, n_v in zip(name_key, name_value)}
         surnames_dict.setdefault(k, names_dict)
     return surnames_dict
-
-
-a = thesaurus_adv("Иван Сергеев", "Инна Серова", "Петр Алексеев", "Илья Иванов", "Анна Савельева")
-print(a)

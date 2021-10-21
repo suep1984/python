@@ -11,7 +11,3 @@ def thesaurus(*names):
         value.append(_names)
     names_dict = {k: v for k, v in zip(key, value)}
     return names_dict
-
-
-a = thesaurus("Иван", "Мария", "Петр", "Илья", "Анна", "Аристарх", "Михаил")
-print(a)

@@ -20,8 +20,3 @@ def num_translate_adv(english_num):
             if english_num == english_num.capitalize() else trans_num[english_num]
     else:
         return None
-
-
-a = num_translate_adv('Seven')
-b = num_translate_adv('ten')
-print(a, b)

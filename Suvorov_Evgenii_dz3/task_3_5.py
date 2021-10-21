@@ -9,7 +9,3 @@ def get_jokes(n):
     """Jokes generator"""
     jokes = [f'{choice(nouns)} {choice(adverbs)} {choice(adjectives)}' for i in range(n)]
     return jokes
-
-
-a = get_jokes(3)
-print(a)
