@@ -7,7 +7,7 @@ def replace_sales(idx, replacement):
         if len(tmp) >= int(idx):
             for item in tmp:
                 if tmp.index(item) == int(idx) - 1:
-                    tmp[tmp.index(item)] = str(float(replacement)) + '\n'
+                    tmp[tmp.index(item)] = replacement + '\n'
                 else:
                     continue
         else:

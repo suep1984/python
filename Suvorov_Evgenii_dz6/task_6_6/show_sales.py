@@ -10,7 +10,7 @@ def show_sales(start=0, stop=lines_count):
     res = []
     with open('bakery.csv', 'r', encoding='utf-8') as f:
         for line in f:
-            res.append(float(line))
+            res.append(line.replace('\n', ''))
         return res[start:stop]
 
 
