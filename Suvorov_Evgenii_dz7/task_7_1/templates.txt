@@ -1,0 +1,4 @@
+settings
+mainapp
+adminapp
+authapp
