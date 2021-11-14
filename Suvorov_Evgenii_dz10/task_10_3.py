@@ -29,7 +29,7 @@ class Cell:
         return f'{self.cell}'
 
     def make_order(self, cell_count):
-        return self.cell // cell_count * f'{"*" * cell_count}\n' + f'{"*" * (self.cell % cell_count)}\n'
+        return self.cell // cell_count * f'{"*" * cell_count}\n' + f'{"*" * (self.cell % cell_count)}'
 
 
 a = Cell(18)
