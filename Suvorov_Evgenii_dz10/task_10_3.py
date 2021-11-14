@@ -22,7 +22,7 @@ class Cell:
         return Cell(new_cell)
 
     def __truediv__(self, other):
-        new_cell = round(self.cell // other.cell)
+        new_cell = round(self.cell / other.cell)
         return Cell(new_cell)
 
     def __str__(self):
